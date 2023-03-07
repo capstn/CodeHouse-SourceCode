@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8913301353728721914}
-  - component: {fileID: 5531032881149518046}
   m_Layer: 0
   m_Name: FloppyDIsk
   m_TagString: Untagged
@@ -34,27 +33,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5531032881149518046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7785419057977842506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67a44506d8135ba418dc299a6502ce49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  dialogueSystem: {fileID: 6891646481040650663}
-  characterNameHolder: {fileID: 6651150304208665090}
-  characterDialogueHolder: {fileID: 4845151520287512415}
-  range: 1
-  characterName: Elijah's Disk #1
-  text:
-  - A disk conataining clues.
-  dialogueMax: 0
 --- !u!1001 &4090437916094710397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -185,32 +163,5 @@ PrefabInstance:
 --- !u!4 &1527556136242669123 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8096515937044969873, guid: be734173760001a499aa93b570020679, type: 3}
-  m_PrefabInstance: {fileID: 7308887472319815634}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4845151520287512415 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2761566172829878413, guid: be734173760001a499aa93b570020679, type: 3}
-  m_PrefabInstance: {fileID: 7308887472319815634}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &6651150304208665090 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4117349545388172752, guid: be734173760001a499aa93b570020679, type: 3}
-  m_PrefabInstance: {fileID: 7308887472319815634}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &6891646481040650663 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4236314503485288053, guid: be734173760001a499aa93b570020679, type: 3}
   m_PrefabInstance: {fileID: 7308887472319815634}
   m_PrefabAsset: {fileID: 0}
