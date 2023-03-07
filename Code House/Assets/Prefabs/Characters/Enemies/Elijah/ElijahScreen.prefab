@@ -47,19 +47,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67a44506d8135ba418dc299a6502ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  characterName: Elijah
+  range: 5
   dialogueSystem: {fileID: 4738597278955854197}
   characterNameHolder: {fileID: 4767987223329166032}
   characterDialogueHolder: {fileID: 6727117027382280077}
-  range: 5
-  characterName: Elijah
-  text:
-  - Hello there..
-  - Hahahha..hahahhaha....HAHAHHAHAHAHHAHA... Ahem, sorry about that.
-  - Really.. I really am.. Anyways forget that happened.
-  - Welcome. Welcome to my world. Is it nice? I don't care about what you think anyway.
-    Why was I asking?
-  - Oh no no.. I am gonna scare my precious little guest..
 --- !u!1 &6078281530429194007
 GameObject:
   m_ObjectHideFlags: 0
