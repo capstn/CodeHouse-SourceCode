@@ -167,6 +167,10 @@ PrefabInstance:
       value: ElijahScreen
       objectReference: {fileID: 0}
     - target: {fileID: 5618017980582026449, guid: 0b5953af6f2d52b429e0bf918cd472ea, type: 3}
+      propertyPath: canDialogue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618017980582026449, guid: 0b5953af6f2d52b429e0bf918cd472ea, type: 3}
       propertyPath: characterDialogueNumber
       value: 5
       objectReference: {fileID: 0}
@@ -327,6 +331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Sinclair
+  canDialogue: 0
   characterDialogueNumber: 3
   characterDialogue:
   - Wo ai ni..
