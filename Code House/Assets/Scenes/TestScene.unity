@@ -166,6 +166,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElijahScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 5618017980582026449, guid: 0b5953af6f2d52b429e0bf918cd472ea, type: 3}
+      propertyPath: characterDialogueNumber
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618017980582026449, guid: 0b5953af6f2d52b429e0bf918cd472ea, type: 3}
+      propertyPath: characterDialogue.Array.data[0]
+      value: Hi
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618017980582026449, guid: 0b5953af6f2d52b429e0bf918cd472ea, type: 3}
+      propertyPath: characterDialogue.Array.data[1]
+      value: Hello
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618017980582026449, guid: 0b5953af6f2d52b429e0bf918cd472ea, type: 3}
+      propertyPath: characterDialogue.Array.data[2]
+      value: Goodbye..
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618017980582026449, guid: 0b5953af6f2d52b429e0bf918cd472ea, type: 3}
+      propertyPath: characterDialogue.Array.data[3]
+      value: Hello again?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618017980582026449, guid: 0b5953af6f2d52b429e0bf918cd472ea, type: 3}
+      propertyPath: characterDialogue.Array.data[4]
+      value: Wo xiang ni..
+      objectReference: {fileID: 0}
     - target: {fileID: 7368452202415103498, guid: 0b5953af6f2d52b429e0bf918cd472ea, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -303,6 +327,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Sinclair
+  characterDialogueNumber: 3
+  characterDialogue:
+  - Wo ai ni..
+  - I see..
+  - I hate you!
+  - 
+  - 
   range: 3
   dialogueSystem: {fileID: 1006020141}
   characterNameHolder: {fileID: 1006020140}
