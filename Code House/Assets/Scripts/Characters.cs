@@ -34,6 +34,13 @@ namespace Character {
         public bool InRange {
             set => inRange = value;
             get => inRange;
+
+        }
+        
+        public bool QuestGiver {
+            set => questGiver = value;
+            get => questGiver;
+
         }
 
         public void setPlayer() {
@@ -45,7 +52,7 @@ namespace Character {
         }
 
         public GameObject Player {
-            get => player = player;
+            get => player;
         }
 
     }

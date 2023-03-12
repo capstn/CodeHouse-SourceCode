@@ -132,6 +132,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a97038f038128468cf9c204371258d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  target: {fileID: 0}
   controller: {fileID: 6559217696435915855}
   speed: 12
   gravity: -18
