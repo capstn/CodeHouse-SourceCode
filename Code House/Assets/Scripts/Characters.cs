@@ -31,15 +31,16 @@ namespace Character {
             get => range;
         }
 
-<<<<<<< Updated upstream
         public bool InRange {
             set => inRange = value;
             get => inRange;
-=======
+
+        }
+        
         public bool QuestGiver {
             set => questGiver = value;
             get => questGiver;
->>>>>>> Stashed changes
+
         }
 
         public void setPlayer() {
