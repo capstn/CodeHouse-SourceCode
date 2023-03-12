@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Character
+namespace Character.Behaviour.Conversation
 {
-    public class Question
+    public class Question 
     {
         
     }

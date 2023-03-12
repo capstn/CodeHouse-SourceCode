@@ -8,12 +8,16 @@ namespace Character {
     {
         private string characterName;
         private byte range;
+        private bool inRange;
+        private bool canDialogue;
         private bool questGiver;
         private GameObject player;
 
         public Characters() {
             characterName = "Default";
             range = 0;
+            inRange = false;
+            canDialogue = false;
             questGiver = false;
         }
 
@@ -27,6 +31,17 @@ namespace Character {
             get => range;
         }
 
+<<<<<<< Updated upstream
+        public bool InRange {
+            set => inRange = value;
+            get => inRange;
+=======
+        public bool QuestGiver {
+            set => questGiver = value;
+            get => questGiver;
+>>>>>>> Stashed changes
+        }
+
         public void setPlayer() {
             player = GameObject.Find("Player");
         }
@@ -36,7 +51,7 @@ namespace Character {
         }
 
         public GameObject Player {
-            get => player = player;
+            get => player;
         }
 
     }
